@@ -135,4 +135,16 @@ See [the attribution](THIRD_PARTY_NOTICES.md) before redistributing the model.
 
 ## Contribute
 
-I love you.
+* Fork the repository.
+* Do your thing.
+* Write a test.
+* Open a pull request.
+
+```sh
+npm test
+```
+
+## I love you
+
+Johannes Gorset made this port. You should [open an issue](https://github.com/jgorset/beatnet/issues)
+if you can't get it to work. In fact, you should tell me what you're building anyway.
