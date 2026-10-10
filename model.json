@@ -1,0 +1,18 @@
+{
+  "model": {
+    "name": "BeatNet model 1",
+    "upstream": "https://github.com/mjhydri/BeatNet",
+    "version": "1.1.1",
+    "license": "CC-BY-4.0",
+    "file": "beatnet.onnx",
+    "url": "https://github.com/jgorset/beatnet/releases/download/v1.0.0/beatnet.onnx",
+    "bytes": 1614181,
+    "sha256": "1e4d3e945cb1273ef2c1f611630e697cbe01815f2885bfb716a78a57f301869f"
+  },
+  "sampleRate": 22050,
+  "hopSize": 441,
+  "chunkFrames": 500,
+  "export": { "torch": "2.6.0", "onnx": "1.17.0", "opset": 17 },
+  "preprocessing": "madmom 0.16.1; 1411-sample Hann window, 136 bands and one-frame positive differences",
+  "postprocessing": "madmom 0.16.1 DBN with checkpointed Viterbi traceback"
+}
